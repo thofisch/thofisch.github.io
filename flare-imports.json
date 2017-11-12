@@ -1,0 +1,1285 @@
+[
+  {
+    "name": "flare.ADODB",
+    "imports": []
+  },
+  {
+    "name": "flare.AutoMapper",
+    "imports": []
+  },
+  {
+    "name": "flare.CodeArchitects.VBLibrary",
+    "imports": []
+  },
+  {
+    "name": "flare.COMSVCSLib",
+    "imports": []
+  },
+  {
+    "name": "flare.Dfds.Messages.UserProfile",
+    "imports": []
+  },
+  {
+    "name": "flare.EntityFramework",
+    "imports": []
+  },
+  {
+    "name": "flare.EntityFramework.SqlServer",
+    "imports": []
+  },
+  {
+    "name": "flare.ESPrinter",
+    "imports": []
+  },
+  {
+    "name": "flare.GenericSearchTLIb",
+    "imports": []
+  },
+  {
+    "name": "flare.GenericSetupTlib",
+    "imports": []
+  },
+  {
+    "name": "flare.HttpsUploadTlib",
+    "imports": []
+  },
+  {
+    "name": "flare.IdentityModel",
+    "imports": []
+  },
+  {
+    "name": "flare.Interop.AppLogTlib",
+    "imports": []
+  },
+  {
+    "name": "flare.Interop.COMSVCSLib",
+    "imports": []
+  },
+  {
+    "name": "flare.Microsoft.Practices.ServiceLocation",
+    "imports": []
+  },
+  {
+    "name": "flare.Microsoft.Practices.Unity",
+    "imports": []
+  },
+  {
+    "name": "flare.Microsoft.Practices.Unity.Configuration",
+    "imports": []
+  },
+  {
+    "name": "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+    "imports": []
+  },
+  {
+    "name": "flare.Microsoft.VisualBasic",
+    "imports": []
+  },
+  {
+    "name": "flare.Microsoft.VisualBasic.Compatibility",
+    "imports": []
+  },
+  {
+    "name": "flare.MSXML2",
+    "imports": []
+  },
+  {
+    "name": "flare.Newtonsoft.Json",
+    "imports": []
+  },
+  {
+    "name": "flare.NLog",
+    "imports": []
+  },
+  {
+    "name": "flare.NServiceBus.Core",
+    "imports": []
+  },
+  {
+    "name": "flare.NServiceBus.Transports.RabbitMQ",
+    "imports": []
+  },
+  {
+    "name": "flare.PassPortUtil",
+    "imports": []
+  },
+  {
+    "name": "flare.Phoenix.Services.Contracts",
+    "imports": []
+  },
+  {
+    "name": "flare.PostSharp",
+    "imports": []
+  },
+  {
+    "name": "flare.PPMAccoBatchTlib",
+    "imports": []
+  },
+  {
+    "name": "flare.PPMAuthTlib",
+    "imports": []
+  },
+  {
+    "name": "flare.PPMCIFSetupTlib",
+    "imports": []
+  },
+  {
+    "name": "flare.PPMGenSetupTlib",
+    "imports": []
+  },
+  {
+    "name": "flare.PPMPriceTlib",
+    "imports": []
+  },
+  {
+    "name": "flare.PPMTasksTlib",
+    "imports": []
+  },
+  {
+    "name": "flare.PPMTPArrBatchTlib",
+    "imports": []
+  },
+  {
+    "name": "flare.PPMTrpBatchTlib",
+    "imports": []
+  },
+  {
+    "name": "flare.PPMTrpSetupTlib",
+    "imports": []
+  },
+  {
+    "name": "flare.QueryMetaDataTLib",
+    "imports": []
+  },
+  {
+    "name": "flare.RabbitMQ.Client",
+    "imports": []
+  },
+  {
+    "name": "flare.ResAPI",
+    "imports": []
+  },
+  {
+    "name": "flare.ResSaleInternal",
+    "imports": []
+  },
+  {
+    "name": "flare.SDFAuthorizationTlib",
+    "imports": []
+  },
+  {
+    "name": "flare.SDFEnumsTLib",
+    "imports": []
+  },
+  {
+    "name": "flare.SDFESTlib",
+    "imports": []
+  },
+  {
+    "name": "flare.SDFObjectFactoryTLib",
+    "imports": []
+  },
+  {
+    "name": "flare.SDFSQLFactoryTLIb",
+    "imports": []
+  },
+  {
+    "name": "flare.SDFTASKMANAGERLib",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Authorization",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Core.Constants",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Core.Data.Entities",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Core.DatabaseAccess",
+    "imports": [
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.Microsoft.VisualBasic",
+      "flare.Microsoft.VisualBasic.Compatibility",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.SeaBook.PhoenixIntegration",
+      "flare.Seabook.Services.Shared",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client",
+      "flare.CodeArchitects.VBLibrary",
+      "flare.ADODB",
+      "flare.Seabook.Core.Entities",
+      "flare.Seabook.Core.Utilities",
+      "flare.Seabook.DataModel.Infrastructure",
+      "flare.SDFSQLFactoryTLIb",
+      "flare.QueryMetaDataTLib",
+      "flare.MSXML2",
+      "flare.SDFEnumsTLib",
+      "flare.COMSVCSLib",
+      "flare.PPMAuthTlib"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Core.DatabaseAccess.dll",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Core.Entities",
+    "imports": [
+      "flare.CodeArchitects.VBLibrary",
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.Microsoft.VisualBasic",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.Seabook.Core.Constants",
+      "flare.Seabook.Core.Messages.Unobtrusive",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Core.Entities.dll",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Core.Messages.Unobtrusive",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Core.Services",
+    "imports": [
+      "flare.Dfds.Messages.UserProfile",
+      "flare.ESPrinter",
+      "flare.GenericSetupTlib",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.Microsoft.VisualBasic",
+      "flare.Microsoft.VisualBasic.Compatibility",
+      "flare.Newtonsoft.Json",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.Phoenix.Services.Contracts",
+      "flare.PostSharp",
+      "flare.PPMGenSetupTlib",
+      "flare.PPMTasksTlib",
+      "flare.Seabook.Core.Messages.Unobtrusive",
+      "flare.Seabook.Core.WebServices.Contracts",
+      "flare.Seabook.DataModel.Infrastructure",
+      "flare.Seabook.Infrastructure.CoreMessageBusPublisher",
+      "flare.Seabook.Services.Infrastructure",
+      "flare.SeaBook.PhoenixIntegration",
+      "flare.Seabook.Services.Shared",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.ES.Client",
+      "flare.Stenaline.SDF.LS.Client",
+      "flare.StenaPrintingEngine",
+      "flare.Stenaline.Print.Model.PrintHP",
+      "flare.Stenaline.Print.PrintHP",
+      "flare.SMTPsvg",
+      "flare.Seabook.TaskFramework.Model",
+      "flare.Seabook.TaskFramework.Scheduler",
+      "flare.Seabook.TaskFramework.Core",
+      "flare.CodeArchitects.VBLibrary",
+      "flare.ADODB",
+      "flare.MSXML2",
+      "flare.SDFEnumsTLib",
+      "flare.PPMAuthTlib",
+      "flare.SDFESTlib",
+      "flare.SDFTASKMANAGERLib",
+      "flare.SDFSQLFactoryTLIb",
+      "flare.Telerik.Reporting",
+      "flare.TLGK2Lib",
+      "flare.Seabook.Core.DatabaseAccess.dll",
+      "flare.Seabook.Core.Entities.dll",
+      "flare.Seabook.Core.Utilities",
+      "flare.SDFAuthorizationTlib"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Core.Services.COM",
+    "imports": [
+      "flare.CodeArchitects.VBLibrary",
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.MSXML2",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.PostSharp",
+      "flare.ResSaleInternal",
+      "flare.SDFESTlib",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client",
+      "flare.Seabook.Core.Services.dll",
+      "flare.Seabook.Core.DatabaseAccess.dll",
+      "flare.Seabook.Core.Utilities.dll",
+      "flare.Seabook.Core.Entities.dll",
+      "flare.Seabook.Services.IOC.dll",
+      "flare.ADODB"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Core.Services.dll",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Core.Tasks",
+    "imports": [
+      "flare.AutoMapper",
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.Microsoft.VisualBasic",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.PostSharp",
+      "flare.ResAPI",
+      "flare.Seabook.Core.Constants",
+      "flare.Seabook.Core.Entities",
+      "flare.Seabook.Core.DatabaseAccess",
+      "flare.Seabook.DataModel.Infrastructure",
+      "flare.Seabook.Core.Utilities",
+      "flare.Seabook.Services.Infrastructure",
+      "flare.Seabook.Services.TPA",
+      "flare.SeaBook.PhoenixIntegration",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client",
+      "flare.CodeArchitects.VBLibrary",
+      "flare.ADODB",
+      "flare.SDFESTlib",
+      "flare.SDFSQLFactoryTLIb",
+      "flare.GenericSetupTlib",
+      "flare.GenericSearchTLIb",
+      "flare.SDFObjectFactoryTLib",
+      "flare.MSXML2",
+      "flare.SDFEnumsTLib",
+      "flare.PPMAuthTlib",
+      "flare.QueryMetaDataTLib",
+      "flare.PPMGenSetupTlib",
+      "flare.COMSVCSLib",
+      "flare.Stenaline.Sloop.Sales.Interfaces.Backoffice",
+      "flare.Stenaline.Sloop.Sales.Interfaces.DPoI",
+      "flare.SDFTASKMANAGERLib",
+      "flare.StringConvertorTlib",
+      "flare.HttpsUploadTlib",
+      "flare.Stenaline.Sloop.Sales.Interfaces.PriceAdmin",
+      "flare.TxtAdmSyncTlib",
+      "flare.PPMCIFSetupTlib",
+      "flare.PPMPriceTlib",
+      "flare.PPMTrpBatchTlib",
+      "flare.PPMTasksTlib",
+      "flare.PPMTrpSetupTlib",
+      "flare.PPMTPArrBatchTlib",
+      "flare.PPMAccoBatchTlib",
+      "flare.StenaPrintingEngine",
+      "flare.Seabook.Core.Services",
+      "flare.Seabook.TaskFramework.Model",
+      "flare.Seabook.TaskFramework.Scheduler"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Core.Utilities",
+    "imports": [
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.Microsoft.VisualBasic",
+      "flare.Microsoft.VisualBasic.Compatibility",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client",
+      "flare.CodeArchitects.VBLibrary",
+      "flare.ADODB",
+      "flare.SDFSQLFactoryTLIb",
+      "flare.PPMAuthTlib",
+      "flare.SDFEnumsTLib",
+      "flare.SDFAuthorizationTlib",
+      "flare.MSXML2"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Core.Utilities.dll",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Core.WebService.Contracts",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Core.WebServices",
+    "imports": [
+      "flare.PostSharp",
+      "flare.Seabook.Core.DatabaseAccess",
+      "flare.Seabook.Core.Entities",
+      "flare.Seabook.Core.Services",
+      "flare.Seabook.Core.WebServices.Contracts",
+      "flare.Seabook.Services.IOC"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Core.WebServices.Contracts",
+    "imports": ["flare.Seabook.Core.Entities"]
+  },
+  {
+    "name": "flare.Seabook.DataModel.Infrastructure",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Infrastructure.CoreMessageBusPublisher",
+    "imports": []
+  },
+  {
+    "name": "flare.SeaBook.PhoenixIntegration",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.Arrangement",
+    "imports": [
+      "flare.EntityFramework",
+      "flare.EntityFramework.SqlServer",
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.PostSharp",
+      "flare.Seabook.Authorization",
+      "flare.Seabook.Core.Data.Entities",
+      "flare.Seabook.DataModel.Infrastructure",
+      "flare.Seabook.Services.Infrastructure",
+      "flare.Seabook.Services.Shared",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Authorization",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.Cabin",
+    "imports": [
+      "flare.EntityFramework",
+      "flare.EntityFramework.SqlServer",
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.PostSharp",
+      "flare.Seabook.Authorization",
+      "flare.Seabook.Core.Data.Entities",
+      "flare.Seabook.DataModel.Infrastructure",
+      "flare.Seabook.Services.Infrastructure",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Campaigns",
+    "imports": [
+      "flare.AutoMapper",
+      "flare.EntityFramework",
+      "flare.EntityFramework.SqlServer",
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.PostSharp",
+      "flare.Seabook.Authorization",
+      "flare.Seabook.Core.Constants",
+      "flare.Seabook.Core.Data.Entities",
+      "flare.Seabook.DataModel.Infrastructure",
+      "flare.Seabook.Services.Infrastructure",
+      "flare.Seabook.Services.Shared",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Campaigns.Shared",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.Communication",
+    "imports": [
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.PostSharp",
+      "flare.Seabook.Services.Shared",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Deck",
+    "imports": [
+      "flare.EntityFramework",
+      "flare.EntityFramework.SqlServer",
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.PostSharp",
+      "flare.Seabook.Authorization",
+      "flare.Seabook.Core.Data.Entities",
+      "flare.Seabook.DataModel.Infrastructure",
+      "flare.Seabook.Services.Infrastructure",
+      "flare.Seabook.Services.Shared",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Departure",
+    "imports": [
+      "flare.EntityFramework",
+      "flare.EntityFramework.SqlServer",
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.PostSharp",
+      "flare.Seabook.Authorization",
+      "flare.Seabook.Core.Data.Entities",
+      "flare.Seabook.DataModel.Infrastructure",
+      "flare.Seabook.Services.Infrastructure",
+      "flare.Seabook.Services.Shared",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.ExternalConnection",
+    "imports": [
+      "flare.EntityFramework",
+      "flare.EntityFramework.SqlServer",
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.PostSharp",
+      "flare.Seabook.Authorization",
+      "flare.Seabook.Core.Data.Entities",
+      "flare.Seabook.DataModel.Infrastructure",
+      "flare.Seabook.Services.Infrastructure",
+      "flare.SDFESTlib",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Infrastructure",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.IntrinsicData",
+    "imports": [
+      "flare.EntityFramework",
+      "flare.EntityFramework.SqlServer",
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.PostSharp",
+      "flare.Seabook.Core.Data.Entities",
+      "flare.Seabook.DataModel.Infrastructure",
+      "flare.Seabook.Services.Infrastructure",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.IOC",
+    "imports": [
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.Seabook.Authorization",
+      "flare.Seabook.Infrastructure.CoreMessageBusPublisher",
+      "flare.Seabook.Services.Authorization"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.IOC.dll",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.JobStatus",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.Payment",
+    "imports": [
+      "flare.EntityFramework",
+      "flare.EntityFramework.SqlServer",
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.PostSharp",
+      "flare.Seabook.Core.Data.Entities",
+      "flare.Seabook.DataModel.Infrastructure",
+      "flare.Seabook.Services.Infrastructure",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Pps",
+    "imports": [
+      "flare.EntityFramework",
+      "flare.EntityFramework.SqlServer",
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.SDFESTlib",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.PpsManualAllocation",
+    "imports": [
+      "flare.EntityFramework",
+      "flare.EntityFramework.SqlServer",
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Price",
+    "imports": [
+      "flare.EntityFramework",
+      "flare.EntityFramework.SqlServer",
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.PostSharp",
+      "flare.Seabook.Authorization",
+      "flare.Seabook.Core.Data.Entities",
+      "flare.Seabook.Core.Entities",
+      "flare.Seabook.DataModel.Infrastructure",
+      "flare.Seabook.Services.Infrastructure",
+      "flare.Seabook.Services.Shared",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Product",
+    "imports": [
+      "flare.EntityFramework",
+      "flare.EntityFramework.SqlServer",
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.PostSharp",
+      "flare.Seabook.Authorization",
+      "flare.Seabook.Core.Data.Entities",
+      "flare.Seabook.DataModel.Infrastructure",
+      "flare.Seabook.Services.Infrastructure",
+      "flare.Seabook.Services.Shared",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Reservation",
+    "imports": [
+      "flare.EntityFramework",
+      "flare.EntityFramework.SqlServer",
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.PostSharp",
+      "flare.Seabook.Authorization",
+      "flare.Seabook.Core.Data.Entities",
+      "flare.Seabook.DataModel.Infrastructure",
+      "flare.Seabook.Services.Infrastructure",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Route",
+    "imports": [
+      "flare.EntityFramework",
+      "flare.EntityFramework.SqlServer",
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.PostSharp",
+      "flare.Seabook.Core.Data.Entities",
+      "flare.Seabook.DataModel.Infrastructure",
+      "flare.Seabook.Services.Infrastructure",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.SalesCif",
+    "imports": [
+      "flare.EntityFramework",
+      "flare.EntityFramework.SqlServer",
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.PostSharp",
+      "flare.Seabook.DataModel.Infrastructure",
+      "flare.Seabook.Core.Data.Entities",
+      "flare.SeaBook.PhoenixIntegration",
+      "flare.Seabook.Services.Infrastructure",
+      "flare.Seabook.Infrastructure.CoreMessageBusPublisher",
+      "flare.Seabook.Authorization",
+      "flare.Seabook.Services.JobStatus",
+      "flare.Seabook.Services.Shared",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.SalesOwner",
+    "imports": [
+      "flare.EntityFramework",
+      "flare.EntityFramework.SqlServer",
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.PostSharp",
+      "flare.Seabook.Core.Data.Entities",
+      "flare.Seabook.DataModel.Infrastructure",
+      "flare.Seabook.Services.Infrastructure",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Shared",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.TaskHandler",
+    "imports": [
+      "flare.EntityFramework",
+      "flare.EntityFramework.SqlServer",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.SDFESTlib",
+      "flare.Stenaline.SDF.ES.Client"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.TPA",
+    "imports": [
+      "flare.AutoMapper",
+      "flare.EntityFramework",
+      "flare.EntityFramework.SqlServer",
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.PostSharp",
+      "flare.Seabook.Authorization",
+      "flare.Seabook.Core.Data.Entities",
+      "flare.Seabook.DataModel.Infrastructure",
+      "flare.Seabook.Services.Infrastructure",
+      "flare.Seabook.Services.Shared",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client"
+    ]
+  },
+  {
+    "name":
+      "flare.Seabook.Services.TPA.ExportReservationArrangementsServiceStub",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.TravelAgent",
+    "imports": [
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.TravelAgentService.Common",
+      "flare.TravelAgentService.Dto"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Users",
+    "imports": [
+      "flare.AutoMapper",
+      "flare.EntityFramework",
+      "flare.EntityFramework.SqlServer",
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.PostSharp",
+      "flare.Seabook.Authorization",
+      "flare.Seabook.Core.Data.Entities",
+      "flare.Seabook.DataModel.Infrastructure",
+      "flare.Seabook.Services.Infrastructure",
+      "flare.Seabook.Services.Shared",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Vehicle",
+    "imports": [
+      "flare.EntityFramework",
+      "flare.EntityFramework.SqlServer",
+      "flare.ESPrinter",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.NLog",
+      "flare.PassPortUtil",
+      "flare.PostSharp",
+      "flare.Seabook.Core.Data.Entities",
+      "flare.Seabook.DataModel.Infrastructure",
+      "flare.Seabook.Services.Infrastructure",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.WebCustomer",
+    "imports": [
+      "flare.Dfds.Messages.UserProfile",
+      "flare.ESPrinter",
+      "flare.IdentityModel",
+      "flare.Interop.AppLogTlib",
+      "flare.Interop.COMSVCSLib",
+      "flare.Microsoft.Practices.ServiceLocation",
+      "flare.Microsoft.Practices.Unity",
+      "flare.Microsoft.Practices.Unity.Configuration",
+      "flare.Microsoft.Practices.Unity.RegistrationByConvention",
+      "flare.Newtonsoft.Json",
+      "flare.NLog",
+      "flare.NServiceBus.Core",
+      "flare.NServiceBus.Transports.RabbitMQ",
+      "flare.PassPortUtil",
+      "flare.PostSharp",
+      "flare.RabbitMQ.Client",
+      "flare.Seabook.Services.Shared",
+      "flare.Seabook.SsoMessageBusEndpoints",
+      "flare.Seabook.Services.Infrastructure",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.Mapping",
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.SmtpEmail",
+      "flare.Stenaline.SDF.LS.Client"
+    ]
+  },
+  {
+    "name": "flare.Seabook.SsoMessageBusEndpoints",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.TaskFramework.Core",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.TaskFramework.Model",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.TaskFramework.Scheduler",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Utilities.Configuration",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Utilities.DatabaseAccess",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Utilities.Helpers",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Utilities.Logging",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Utilities.Mapping",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Utilities.PrintingAdapter",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Utilities.SmtpEmail",
+    "imports": []
+  },
+  {
+    "name": "flare.SMTPsvg",
+    "imports": []
+  },
+  {
+    "name": "flare.Stenaline.Print.Model.PrintHP",
+    "imports": []
+  },
+  {
+    "name": "flare.Stenaline.Print.PrintHP",
+    "imports": []
+  },
+  {
+    "name": "flare.Stenaline.SDF.ES.Client",
+    "imports": []
+  },
+  {
+    "name": "flare.Stenaline.SDF.LS.Client",
+    "imports": []
+  },
+  {
+    "name": "flare.Stenaline.Sloop.Sales.Interfaces.Backoffice",
+    "imports": []
+  },
+  {
+    "name": "flare.Stenaline.Sloop.Sales.Interfaces.DPoI",
+    "imports": []
+  },
+  {
+    "name": "flare.Stenaline.Sloop.Sales.Interfaces.PriceAdmin",
+    "imports": []
+  },
+  {
+    "name": "flare.StenaPrintingEngine",
+    "imports": []
+  },
+  {
+    "name": "flare.StringConvertorTlib",
+    "imports": []
+  },
+  {
+    "name": "flare.Telerik.Reporting",
+    "imports": []
+  },
+  {
+    "name": "flare.TLGK2Lib",
+    "imports": []
+  },
+  {
+    "name": "flare.TravelAgentService.Common",
+    "imports": []
+  },
+  {
+    "name": "flare.TravelAgentService.Dto",
+    "imports": []
+  },
+  {
+    "name": "flare.TxtAdmSyncTlib",
+    "imports": []
+  }
+]

@@ -1,0 +1,1767 @@
+[
+  {
+    "name": "flare.CapacityOverview.Web",
+    "imports": ["flare.CapacityOverviewModel", "flare.CapacityOverviewServer"]
+  },
+  {
+    "name": "flare.CapacityOverviewModel",
+    "imports": []
+  },
+  {
+    "name": "flare.CapacityOverviewServer",
+    "imports": ["flare.CapacityOverviewModel", "flare.SEABOOKDataAccess"]
+  },
+  {
+    "name": "flare.CapacityOverviewClient",
+    "imports": []
+  },
+  {
+    "name": "flare.SEABOOKDataAccess",
+    "imports": ["flare.CapacityOverviewModel"]
+  },
+  {
+    "name": "flare.MatrixLib",
+    "imports": []
+  },
+  {
+    "name": "flare.SeaBook.Common",
+    "imports": []
+  },
+  {
+    "name": "flare.SeaBook.Common.Tests",
+    "imports": [
+      "flare.UI.CheckIn",
+      "flare.Common.DataSets",
+      "flare.Common",
+      "flare.CCDEPPAPI",
+      "flare.Interfaces",
+      "flare.PaxSafeReports",
+      "flare.PaxSafe",
+      "flare.PayAPI",
+      "flare.Reports",
+      "flare.SeaBook.UI.CashStatements.Tests",
+      "flare.SeaBook.UI.CashStatements",
+      "flare.Starfish",
+      "flare.UI.Accommodation",
+      "flare.UI.Arrangement",
+      "flare.UI.CustomControls",
+      "flare.UI.Customer",
+      "flare.UI.Product",
+      "flare.UI.Search",
+      "flare.UI.Transport",
+      "flare.UI.Welcome",
+      "flare.UI"
+    ]
+  },
+  {
+    "name": "flare.UI.CheckIn",
+    "imports": []
+  },
+  {
+    "name": "flare.Common.DataSets",
+    "imports": []
+  },
+  {
+    "name": "flare.Common",
+    "imports": []
+  },
+  {
+    "name": "flare.CCDEPPAPI",
+    "imports": []
+  },
+  {
+    "name": "flare.Interfaces",
+    "imports": []
+  },
+  {
+    "name": "flare.PaxSafeReports",
+    "imports": []
+  },
+  {
+    "name": "flare.PaxSafe",
+    "imports": []
+  },
+  {
+    "name": "flare.PayAPI",
+    "imports": []
+  },
+  {
+    "name": "flare.Reports",
+    "imports": []
+  },
+  {
+    "name": "flare.SeaBook.UI.CashStatements.Tests",
+    "imports": ["flare.SeaBook.UI.CashStatements"]
+  },
+  {
+    "name": "flare.SeaBook.UI.CashStatements",
+    "imports": []
+  },
+  {
+    "name": "flare.Starfish",
+    "imports": []
+  },
+  {
+    "name": "flare.UI.Accommodation",
+    "imports": []
+  },
+  {
+    "name": "flare.UI.Arrangement",
+    "imports": []
+  },
+  {
+    "name": "flare.UI.CustomControls",
+    "imports": []
+  },
+  {
+    "name": "flare.UI.Customer",
+    "imports": []
+  },
+  {
+    "name": "flare.UI.Product",
+    "imports": []
+  },
+  {
+    "name": "flare.UI.Search",
+    "imports": []
+  },
+  {
+    "name": "flare.UI.Transport",
+    "imports": []
+  },
+  {
+    "name": "flare.UI.Welcome",
+    "imports": []
+  },
+  {
+    "name": "flare.UI",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.UI",
+    "imports": [
+      "flare.Common",
+      "flare.Interfaces",
+      "flare.PayAPI",
+      "flare.SeaBook.Common",
+      "flare.Seabook.WebApi.Client",
+      "flare.UI.CustomControls"
+    ]
+  },
+  {
+    "name": "flare.Seabook.WebApi.Client",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.UI.CustomControls",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.UI.Pps",
+    "imports": ["flare.MatrixLib", "flare.SeaBook.Common"]
+  },
+  {
+    "name": "flare.Seabook.UI.Pps.Tests",
+    "imports": ["flare.MatrixLib", "flare.Seabook.UI.Pps"]
+  },
+  {
+    "name": "flare.Seabook.UI.Tests",
+    "imports": [
+      "flare.Common",
+      "flare.Interfaces",
+      "flare.PayAPI",
+      "flare.SeaBook.Common",
+      "flare.Seabook.UI"
+    ]
+  },
+  {
+    "name": "flare.Seabook.UI.Welcome",
+    "imports": [
+      "flare.SeaBook.Common",
+      "flare.Seabook.Wpf.Common",
+      "flare.Seabook.Wpf.CustomControls"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Wpf.Common",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Wpf.CustomControls",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.UI.Welcome.Tests",
+    "imports": [
+      "flare.SeaBook.Common",
+      "flare.Seabook.UI.Welcome",
+      "flare.Seabook.Wpf.Common"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Wpf.Common.Tests",
+    "imports": ["flare.Seabook.Wpf.Common"]
+  },
+  {
+    "name": "flare.Dfds.Layout.Web",
+    "imports": []
+  },
+  {
+    "name": "flare.ManagementShellHostTest",
+    "imports": [
+      "flare.SeaBook.Data.Model.FinanceDb",
+      "flare.SeaBook.Data.Model",
+      "flare.SeaBook.ManagementShell.Host",
+      "flare.SeaBook.ManagementShell.Security"
+    ]
+  },
+  {
+    "name": "flare.SeaBook.Data.Model.FinanceDb",
+    "imports": []
+  },
+  {
+    "name": "flare.SeaBook.Data.Model",
+    "imports": []
+  },
+  {
+    "name": "flare.SeaBook.ManagementShell.Host",
+    "imports": [
+      "flare.SeaBook.Data.Access.FinanceDb",
+      "flare.SeaBook.Data.Access",
+      "flare.SeaBook.Data.Model.FinanceDb",
+      "flare.SeaBook.Data.Model",
+      "flare.SeaBook.Data.Util",
+      "flare.SeaBook.ManagementShell.ItineraryProcessing",
+      "flare.SeaBook.ManagementShell.Messages",
+      "flare.SeaBook.ManagementShell.Security"
+    ]
+  },
+  {
+    "name": "flare.SeaBook.ManagementShell.Security",
+    "imports": ["flare.SeaBook.Data.Util"]
+  },
+  {
+    "name": "flare.SeaBook.CashStatementService",
+    "imports": [
+      "flare.SeaBook.CashStatementService.Contract",
+      "flare.SeaBook.Data.Access",
+      "flare.SeaBook.Data.Model"
+    ]
+  },
+  {
+    "name": "flare.SeaBook.CashStatementService.Contract",
+    "imports": []
+  },
+  {
+    "name": "flare.SeaBook.Data.Access",
+    "imports": ["flare.SeaBook.Data.Model", "flare.SeaBook.Data.Util"]
+  },
+  {
+    "name": "flare.SeaBook.Data.Util",
+    "imports": []
+  },
+  {
+    "name": "flare.SeaBook.Data.Access.FinanceDb",
+    "imports": ["flare.SeaBook.Data.Model.FinanceDb", "flare.SeaBook.Data.Util"]
+  },
+  {
+    "name": "flare.SeaBook.Data.Access.IntegrationTests",
+    "imports": ["flare.SeaBook.Data.Access", "flare.SeaBook.Data.Model"]
+  },
+  {
+    "name": "flare.SeaBook.Finance.Payment.Import",
+    "imports": ["flare.SeaBook.Data.Access", "flare.SeaBook.Data.Model"]
+  },
+  {
+    "name": "flare.SeaBook.Finance.Payment.Loader",
+    "imports": [
+      "flare.SeaBook.Data.Model",
+      "flare.SeaBook.Finance.Payment.Import"
+    ]
+  },
+  {
+    "name": "flare.SeaBook.ManagementShell.Client",
+    "imports": [
+      "flare.SeaBook.ManagementShell.Client.Common",
+      "flare.SeaBook.ManagementShell.Client.Model",
+      "flare.Seabook.ManagementShell.Client.Shared"
+    ]
+  },
+  {
+    "name": "flare.SeaBook.ManagementShell.Client.Common",
+    "imports": [
+      "flare.SeaBook.ManagementShell.Client.Model",
+      "flare.Seabook.ManagementShell.Client.Shared"
+    ]
+  },
+  {
+    "name": "flare.SeaBook.ManagementShell.Client.Model",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.ManagementShell.Client.Shared",
+    "imports": []
+  },
+  {
+    "name": "flare.SeaBook.ManagementShell.Client.FinanceModule",
+    "imports": [
+      "flare.SeaBook.ManagementShell.Client.Common",
+      "flare.SeaBook.ManagementShell.Client.Model",
+      "flare.Seabook.ManagementShell.Client.Shared"
+    ]
+  },
+  {
+    "name": "flare.SeaBook.ManagementShell.Client.ItineraryProcessingModule",
+    "imports": [
+      "flare.SeaBook.ManagementShell.Client.Common",
+      "flare.SeaBook.ManagementShell.Client.Model",
+      "flare.Seabook.ManagementShell.Client.Shared"
+    ]
+  },
+  {
+    "name": "flare.Seabook.ManagementShell.Client.Wpf",
+    "imports": [
+      "flare.SeaBook.Data.Model",
+      "flare.Seabook.ManagementShell.Client.Shared"
+    ]
+  },
+  {
+    "name": "flare.Seabook.ManagementShell.Client.Wpf.Test",
+    "imports": ["flare.Seabook.ManagementShell.Client.Wpf"]
+  },
+  {
+    "name": "flare.SeaBook.ManagementShell.Common",
+    "imports": []
+  },
+  {
+    "name": "flare.SeaBook.ManagementShell.ItineraryProcessing",
+    "imports": ["flare.SeaBook.Data.Model"]
+  },
+  {
+    "name": "flare.SeaBook.ManagementShell.Messages",
+    "imports": []
+  },
+  {
+    "name": "flare.SepaDocumentTest",
+    "imports": [
+      "flare.SeaBook.Data.Model",
+      "flare.SeaBook.ManagementShell.Host"
+    ]
+  },
+  {
+    "name": "flare.Dfds.PaymentReceiver.Web",
+    "imports": ["flare.EPP.Contract", "flare.Seabook.Utilities.Configuration"]
+  },
+  {
+    "name": "flare.EPP.Contract",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Utilities.Configuration",
+    "imports": ["flare.Seabook.Utilities.DatabaseAccess"]
+  },
+  {
+    "name": "flare.Dfds.PaymentReceiver.Web.Tests",
+    "imports": ["flare.Dfds.PaymentReceiver.Web"]
+  },
+  {
+    "name": "flare.Seabook.Clients.PPIM",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Clients.PPIM.Tests",
+    "imports": ["flare.Seabook.Clients.PPIM"]
+  },
+  {
+    "name": "flare.ResendTravelAgentDocuments",
+    "imports": []
+  },
+  {
+    "name": "flare.Client",
+    "imports": ["flare.Common"]
+  },
+  {
+    "name": "flare.ClientGenerated",
+    "imports": ["flare.Client", "flare.Common"]
+  },
+  {
+    "name": "flare.SCORE.DesktopClient",
+    "imports": []
+  },
+  {
+    "name": "flare.SCORE.Server",
+    "imports": []
+  },
+  {
+    "name": "flare.Server",
+    "imports": []
+  },
+  {
+    "name": "flare.ServerGenerated",
+    "imports": ["flare.SCOREServicesLibrary.Web", "flare.Server"]
+  },
+  {
+    "name": "flare.SCOREServicesLibrary.Web",
+    "imports": []
+  },
+  {
+    "name": "flare.SeaBookLocales.DesktopClient",
+    "imports": []
+  },
+  {
+    "name": "flare.SeaBookLocales.Server",
+    "imports": []
+  },
+  {
+    "name": "flare.SupplierOnline.Web",
+    "imports": ["flare.Dfds.SeaBook.WebFacade"]
+  },
+  {
+    "name": "flare.Dfds.SeaBook.WebFacade",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.TTB.Tests",
+    "imports": ["flare.Common", "flare.UI.ReleaseDeferredCabinCapacity"]
+  },
+  {
+    "name": "flare.UI.ReleaseDeferredCabinCapacity",
+    "imports": ["flare.Common"]
+  },
+  {
+    "name": "flare.TTBClientTests",
+    "imports": ["flare.UI.Common"]
+  },
+  {
+    "name": "flare.UI.Common",
+    "imports": []
+  },
+  {
+    "name": "flare.UI.CapacityOverView",
+    "imports": ["flare.Framework.UI", "flare.UI.Common"]
+  },
+  {
+    "name": "flare.Framework.UI",
+    "imports": []
+  },
+  {
+    "name": "flare.UI.ReleasePooledCabinCapacity",
+    "imports": []
+  },
+  {
+    "name": "flare.B2B",
+    "imports": []
+  },
+  {
+    "name": "flare.FerryGateway.Test",
+    "imports": []
+  },
+  {
+    "name": "flare.B2B.Unittest",
+    "imports": []
+  },
+  {
+    "name": "flare.CleanUpGuestList",
+    "imports": []
+  },
+  {
+    "name": "flare.CleanupServices",
+    "imports": [
+      "flare.Finance.Common",
+      "flare.Finance.Model",
+      "flare.Finance.Service"
+    ]
+  },
+  {
+    "name": "flare.Finance.Common",
+    "imports": []
+  },
+  {
+    "name": "flare.Finance.Model",
+    "imports": ["flare.Finance.Common"]
+  },
+  {
+    "name": "flare.Finance.Service",
+    "imports": [
+      "flare.Finance.Common",
+      "flare.Finance.Facade",
+      "flare.Finance.InvoiceRepository",
+      "flare.Finance.Model.Invoice",
+      "flare.Finance.Model"
+    ]
+  },
+  {
+    "name": "flare.CleanupServices.UnitTest",
+    "imports": [
+      "flare.CleanupServices",
+      "flare.Finance.Common",
+      "flare.Finance.Facade",
+      "flare.Finance.Model",
+      "flare.Finance.Service",
+      "flare.Finance.Stubs"
+    ]
+  },
+  {
+    "name": "flare.Finance.Facade",
+    "imports": [
+      "flare.Finance.Common",
+      "flare.Finance.Model.Invoice",
+      "flare.Finance.Model"
+    ]
+  },
+  {
+    "name": "flare.Finance.Stubs",
+    "imports": [
+      "flare.Finance.Common",
+      "flare.Finance.Model.Invoice",
+      "flare.Finance.Facade",
+      "flare.Finance.InvoiceRepository",
+      "flare.Finance.Model",
+      "flare.Finance.Service",
+      "flare.Finance.Tasks"
+    ]
+  },
+  {
+    "name": "flare.ConsoleRunner",
+    "imports": [
+      "flare.Finance.Facade",
+      "flare.Finance.Model",
+      "flare.Finance.Service",
+      "flare.Finance.Tasks"
+    ]
+  },
+  {
+    "name": "flare.Finance.Tasks",
+    "imports": [
+      "flare.Finance.ExportAgentDocument",
+      "flare.Finance.Common",
+      "flare.Finance.Facade",
+      "flare.Finance.InvoiceRepository",
+      "flare.Finance.Invoice",
+      "flare.Finance.Model.Invoice",
+      "flare.Finance.Model",
+      "flare.Finance.Service",
+      "flare.Finance.Task.Handler"
+    ]
+  },
+  {
+    "name": "flare.Finance.ExportAgentDocument",
+    "imports": [
+      "flare.Finance.Common",
+      "flare.Finance.Facade",
+      "flare.Finance.InvoiceRepository",
+      "flare.Finance.Model.Invoice",
+      "flare.Finance.Model",
+      "flare.Finance.Service"
+    ]
+  },
+  {
+    "name": "flare.Finance.InvoiceRepository",
+    "imports": ["flare.Finance.Model.Invoice"]
+  },
+  {
+    "name": "flare.Finance.Model.Invoice",
+    "imports": ["flare.Finance.Common", "flare.Finance.Model"]
+  },
+  {
+    "name": "flare.ExtractRevenue",
+    "imports": ["flare.Finance.Model"]
+  },
+  {
+    "name": "flare.Finance.AcceptanceTest",
+    "imports": [
+      "flare.Finance.Common",
+      "flare.Finance.Model",
+      "flare.Finance.Service",
+      "flare.Finance.Tasks"
+    ]
+  },
+  {
+    "name": "flare.Finance.Contract",
+    "imports": []
+  },
+  {
+    "name": "flare.Finance.dbml.UnitTest",
+    "imports": ["flare.Finance.Model", "flare.Finance.TestHelper"]
+  },
+  {
+    "name": "flare.Finance.TestHelper",
+    "imports": []
+  },
+  {
+    "name": "flare.Finance.Dto",
+    "imports": []
+  },
+  {
+    "name": "flare.Finance.ExportAgentDocumentTest",
+    "imports": [
+      "flare.Finance.ExportAgentDocument",
+      "flare.Finance.Common",
+      "flare.Finance.Facade",
+      "flare.Finance.InvoiceRepository",
+      "flare.Finance.Model.Invoice",
+      "flare.Finance.Model",
+      "flare.Finance.Stubs",
+      "flare.Finance.Tasks",
+      "flare.Finance.TestHelper"
+    ]
+  },
+  {
+    "name": "flare.Finance.FacadeTest",
+    "imports": [
+      "flare.Finance.Common",
+      "flare.Finance.Facade",
+      "flare.Finance.InvoiceRepository",
+      "flare.Finance.Model.Invoice",
+      "flare.Finance.Model",
+      "flare.Finance.Stubs",
+      "flare.Finance.Tasks",
+      "flare.Finance.TestHelper"
+    ]
+  },
+  {
+    "name": "flare.Finance.Invoice",
+    "imports": [
+      "flare.Finance.Common",
+      "flare.Finance.Facade",
+      "flare.Finance.InvoiceRepository",
+      "flare.Finance.Model.Invoice",
+      "flare.Finance.Model",
+      "flare.Finance.Service"
+    ]
+  },
+  {
+    "name": "flare.Finance.InvoiceRepositoryTest",
+    "imports": [
+      "flare.Finance.Common",
+      "flare.Finance.Facade",
+      "flare.Finance.InvoiceRepository",
+      "flare.Finance.Model.Invoice",
+      "flare.Finance.Stubs",
+      "flare.Finance.TestHelper"
+    ]
+  },
+  {
+    "name": "flare.Finance.InvoiceTest",
+    "imports": [
+      "flare.Finance.Common",
+      "flare.Finance.Facade",
+      "flare.Finance.InvoiceRepository",
+      "flare.Finance.Invoice",
+      "flare.Finance.Model.Invoice",
+      "flare.Finance.Model",
+      "flare.Finance.Service",
+      "flare.Finance.Stubs",
+      "flare.Finance.Tasks",
+      "flare.Finance.TestHelper"
+    ]
+  },
+  {
+    "name": "flare.Finance.MessageBusSubscribers",
+    "imports": [
+      "flare.Finance.ExportAgentDocument",
+      "flare.Finance.Common",
+      "flare.Finance.Dto",
+      "flare.Finance.Facade",
+      "flare.Finance.InvoiceRepository",
+      "flare.Finance.Invoice",
+      "flare.Finance.Model.Invoice",
+      "flare.Finance.Messages",
+      "flare.Finance.Model",
+      "flare.Finance.Service",
+      "flare.Finance.Task.Handler"
+    ]
+  },
+  {
+    "name": "flare.Finance.Messages",
+    "imports": ["flare.Finance.Dto"]
+  },
+  {
+    "name": "flare.Finance.Task.Handler",
+    "imports": [
+      "flare.Finance.ExportAgentDocument",
+      "flare.Finance.Common",
+      "flare.Finance.Facade",
+      "flare.Finance.InvoiceRepository",
+      "flare.Finance.Invoice",
+      "flare.Finance.Model.Invoice",
+      "flare.Finance.Model",
+      "flare.Finance.Service"
+    ]
+  },
+  {
+    "name": "flare.Finance.MessageBusSubscribers.Test",
+    "imports": [
+      "flare.Finance.Common",
+      "flare.Finance.Dto",
+      "flare.Finance.InvoiceRepository",
+      "flare.Finance.Invoice",
+      "flare.Finance.MessageBusSubscribers",
+      "flare.Finance.Messages",
+      "flare.Finance.Model.Invoice",
+      "flare.Finance.Model",
+      "flare.Finance.Service",
+      "flare.Finance.Task.Handler"
+    ]
+  },
+  {
+    "name": "flare.Finance.Model.UnitTest",
+    "imports": [
+      "flare.Finance.Common",
+      "flare.Finance.Invoice",
+      "flare.Finance.Model.Invoice",
+      "flare.Finance.Model",
+      "flare.Finance.Stubs",
+      "flare.Finance.TestHelper"
+    ]
+  },
+  {
+    "name": "flare.Finance.Service.External",
+    "imports": [
+      "flare.Finance.InvoiceRepository",
+      "flare.Finance.Model.Invoice",
+      "flare.Finance.Model"
+    ]
+  },
+  {
+    "name": "flare.Finance.Service.FunctionalTest",
+    "imports": []
+  },
+  {
+    "name": "flare.Finance.Service.IntegrationTest",
+    "imports": [
+      "flare.Finance.Common",
+      "flare.Finance.Facade",
+      "flare.Finance.InvoiceRepository",
+      "flare.Finance.Model.Invoice",
+      "flare.Finance.Model",
+      "flare.Finance.Service",
+      "flare.Finance.Stubs",
+      "flare.Finance.Tasks",
+      "flare.Finance.TestHelper"
+    ]
+  },
+  {
+    "name": "flare.Finance.Service.UnitTest",
+    "imports": [
+      "flare.Finance.Common",
+      "flare.Finance.Facade",
+      "flare.Finance.InvoiceRepository",
+      "flare.Finance.Model.Invoice",
+      "flare.Finance.Model",
+      "flare.Finance.Service.External",
+      "flare.Finance.Service",
+      "flare.Finance.Stubs",
+      "flare.Finance.TestHelper"
+    ]
+  },
+  {
+    "name": "flare.Finance.Task.Handler.UnitTest",
+    "imports": [
+      "flare.Finance.Facade",
+      "flare.Finance.InvoiceRepository",
+      "flare.Finance.Invoice",
+      "flare.Finance.Model.Invoice",
+      "flare.Finance.Model",
+      "flare.Finance.Service",
+      "flare.Finance.Task.Handler",
+      "flare.Finance.Tasks.UnitTest",
+      "flare.Finance.Tasks"
+    ]
+  },
+  {
+    "name": "flare.Finance.Tasks.UnitTest",
+    "imports": [
+      "flare.Finance.ExportAgentDocument",
+      "flare.Finance.Common",
+      "flare.Finance.Facade",
+      "flare.Finance.InvoiceRepository",
+      "flare.Finance.Invoice",
+      "flare.Finance.Model.Invoice",
+      "flare.Finance.Model",
+      "flare.Finance.Service",
+      "flare.Finance.Stubs",
+      "flare.Finance.Task.Handler",
+      "flare.Finance.Tasks",
+      "flare.Finance.TestHelper"
+    ]
+  },
+  {
+    "name": "flare.Finance.Tasks.IntegrationTest",
+    "imports": [
+      "flare.Finance.ExportAgentDocument",
+      "flare.Finance.Common",
+      "flare.Finance.InvoiceRepository",
+      "flare.Finance.Model.Invoice",
+      "flare.Finance.Model",
+      "flare.Finance.Service",
+      "flare.Finance.Stubs",
+      "flare.Finance.Tasks",
+      "flare.Finance.TestHelper"
+    ]
+  },
+  {
+    "name": "flare.MessagePosterTestConsole",
+    "imports": [
+      "flare.CleanupServices",
+      "flare.Finance.ExportAgentDocument",
+      "flare.Finance.Common",
+      "flare.Finance.Facade",
+      "flare.Finance.InvoiceRepository",
+      "flare.Finance.MessageBusSubscribers",
+      "flare.Finance.Model.Invoice",
+      "flare.Finance.Model",
+      "flare.Finance.Service",
+      "flare.Finance.Tasks"
+    ]
+  },
+  {
+    "name": "flare.MissingItemsCleanup",
+    "imports": []
+  },
+  {
+    "name": "flare.PaymentCleanup",
+    "imports": [
+      "flare.CleanupServices",
+      "flare.Finance.Model",
+      "flare.Finance.Service"
+    ]
+  },
+  {
+    "name": "flare.RevenueCleanupConsole",
+    "imports": [
+      "flare.CleanupServices",
+      "flare.Finance.Common",
+      "flare.Finance.Facade",
+      "flare.Finance.Model",
+      "flare.Finance.Service"
+    ]
+  },
+  {
+    "name": "flare.SeaBook.Accounting.RunInvoiceJob",
+    "imports": []
+  },
+  {
+    "name": "flare.SeaBook.PhoenixIntegration",
+    "imports": ["flare.SeaBook.PhoenixIntegration.DataAccess"]
+  },
+  {
+    "name": "flare.SeaBook.PhoenixIntegration.DataAccess",
+    "imports": []
+  },
+  {
+    "name": "flare.SeaBook.PhoenixIntegration.MockImplementation",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Authorization",
+    "imports": ["flare.Seabook.Services.Authorization"]
+  },
+  {
+    "name": "flare.Seabook.Services.Authorization",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Authorization.Tests",
+    "imports": ["flare.Seabook.Authorization"]
+  },
+  {
+    "name": "flare.Seabook.Authorization.TestUtilities",
+    "imports": ["flare.Seabook.Authorization"]
+  },
+  {
+    "name": "flare.Seabook.Services.Authorization.Tests",
+    "imports": ["flare.Seabook.Services.Authorization"]
+  },
+  {
+    "name": "flare.Seabook.Core.Constants",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Core.DatabaseAccess",
+    "imports": ["flare.Seabook.Core.Constants"]
+  },
+  {
+    "name": "flare.Seabook.Core.Entities",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Core.Services",
+    "imports": [
+      "flare.Seabook.Core.Constants",
+      "flare.Seabook.Services.Arrangement",
+      "flare.Seabook.Services.Cabin",
+      "flare.Seabook.Services.Campaigns",
+      "flare.Seabook.Services.Deck",
+      "flare.Seabook.Services.Departure",
+      "flare.Seabook.Services.Payment",
+      "flare.Seabook.Services.PpsManualAllocation",
+      "flare.Seabook.Services.Pps",
+      "flare.Seabook.Services.Product",
+      "flare.Seabook.Services.Reservation",
+      "flare.Seabook.Services.Route"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Arrangement",
+    "imports": ["flare.Seabook.Core.Data.Entities"]
+  },
+  {
+    "name": "flare.Seabook.Services.Cabin",
+    "imports": [
+      "flare.Seabook.Core.Constants",
+      "flare.Seabook.Core.DatabaseAccess",
+      "flare.Seabook.Core.Utilities",
+      "flare.Seabook.Services.Departure"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Campaigns",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.Deck",
+    "imports": ["flare.Seabook.Core.Constants"]
+  },
+  {
+    "name": "flare.Seabook.Services.Departure",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.Payment",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.PpsManualAllocation",
+    "imports": [
+      "flare.Seabook.Core.Constants",
+      "flare.Seabook.Core.Entities",
+      "flare.Seabook.Core.Utilities",
+      "flare.Seabook.Services.Pps"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Pps",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.Product",
+    "imports": [
+      "flare.Seabook.Core.DatabaseAccess",
+      "flare.Seabook.Core.Entities",
+      "flare.Seabook.Core.Utilities",
+      "flare.Seabook.Services.Cabin",
+      "flare.Seabook.Services.ExternalConnection",
+      "flare.Seabook.Services.SalesOwner",
+      "flare.Seabook.Services.Vehicle"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Reservation",
+    "imports": ["flare.Seabook.Core.Entities", "flare.Seabook.Core.Utilities"]
+  },
+  {
+    "name": "flare.Seabook.Services.Route",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Core.Services.COM",
+    "imports": ["flare.Seabook.Core.Tasks"]
+  },
+  {
+    "name": "flare.Seabook.Core.Tasks",
+    "imports": [
+      "flare.Seabook.Services.Cabin",
+      "flare.Seabook.Services.Campaigns",
+      "flare.Seabook.Services.IOC"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.IOC",
+    "imports": [
+      "flare.Seabook.Core.Services",
+      "flare.Seabook.Services.Arrangement",
+      "flare.Seabook.Services.Cabin",
+      "flare.Seabook.Services.Campaigns",
+      "flare.Seabook.Services.Deck",
+      "flare.Seabook.Services.Departure",
+      "flare.Seabook.Services.ExternalConnection",
+      "flare.Seabook.Services.IntrinsicData",
+      "flare.Seabook.Services.Payment",
+      "flare.Seabook.Services.PpsManualAllocation",
+      "flare.Seabook.Services.Pps",
+      "flare.Seabook.Services.Price",
+      "flare.Seabook.Services.Product",
+      "flare.Seabook.Services.Reservation",
+      "flare.Seabook.Services.Route",
+      "flare.Seabook.Services.SalesOwner",
+      "flare.Seabook.Services.TPA",
+      "flare.Seabook.Services.Users",
+      "flare.Seabook.Services.Vehicle"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Core.Tests",
+    "imports": [
+      "flare.Seabook.Core.Entities",
+      "flare.Seabook.Core.Services.COM",
+      "flare.Seabook.Core.Services",
+      "flare.Seabook.Core.Utilities",
+      "flare.Seabook.Core.WebServices",
+      "flare.Seabook.Services.Cabin",
+      "flare.Seabook.Services.Campaigns",
+      "flare.Seabook.Services.Deck",
+      "flare.Seabook.Services.Departure",
+      "flare.Seabook.Services.Infrastructure",
+      "flare.Seabook.Services.IOC",
+      "flare.Seabook.Services.Payment",
+      "flare.Seabook.Services.Pps",
+      "flare.Seabook.Services.Product",
+      "flare.Seabook.Services.Reservation",
+      "flare.Seabook.Services.Route",
+      "flare.Seabook.Services.TPA"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Core.Utilities",
+    "imports": ["flare.Seabook.Core.Constants", "flare.Seabook.Core.Entities"]
+  },
+  {
+    "name": "flare.Seabook.Core.WebServices",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.Infrastructure",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.TPA",
+    "imports": [
+      "flare.Seabook.Core.Constants",
+      "flare.Seabook.Services.Price",
+      "flare.Seabook.Services.SalesOwner"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Core.Utilities.Tests",
+    "imports": [
+      "flare.Seabook.Core.Entities",
+      "flare.Seabook.Core.Tests",
+      "flare.Seabook.Core.Utilities"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Core.WebService.Contracts",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Core.WebServices.Contracts",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Core.Data.Entities",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.Arrangement.Tests",
+    "imports": ["flare.Seabook.Services.Arrangement"]
+  },
+  {
+    "name": "flare.Seabook.Services.Cabin.Tests",
+    "imports": [
+      "flare.Seabook.Core.DatabaseAccess",
+      "flare.Seabook.Core.Entities",
+      "flare.Seabook.Core.Tests",
+      "flare.Seabook.Core.Utilities",
+      "flare.Seabook.Services.Cabin",
+      "flare.Seabook.Services.Departure"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Campaigns.Tests",
+    "imports": [
+      "flare.Seabook.Core.Constants",
+      "flare.Seabook.Core.DatabaseAccess",
+      "flare.Seabook.Core.Tests",
+      "flare.Seabook.Services.Campaigns"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Campaigns.Shared",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.Communication",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.Communications.Tests",
+    "imports": [
+      "flare.Seabook.Core.Tests",
+      "flare.Seabook.Services.Communication"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Deck.Tests",
+    "imports": [
+      "flare.Seabook.Core.DatabaseAccess",
+      "flare.Seabook.Core.Entities",
+      "flare.Seabook.Core.Tests",
+      "flare.Seabook.Services.Deck"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Departure.Tests",
+    "imports": [
+      "flare.Seabook.Core.Entities",
+      "flare.Seabook.Core.Tests",
+      "flare.Seabook.Services.Departure"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.ExternalConnection",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.ExternalConnection.Tests",
+    "imports": ["flare.Seabook.Services.ExternalConnection"]
+  },
+  {
+    "name": "flare.Seabook.Services.IntrinsicData",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.IntrinsicData.Tests",
+    "imports": ["flare.Seabook.Services.IntrinsicData"]
+  },
+  {
+    "name": "flare.Seabook.Services.Price",
+    "imports": [
+      "flare.Seabook.Core.Utilities",
+      "flare.Seabook.Services.SalesOwner"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.SalesOwner",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.Users",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.Vehicle",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.IOC.Tests",
+    "imports": ["flare.Seabook.Services.IOC", "flare.Seabook.Services.Users"]
+  },
+  {
+    "name": "flare.Seabook.Services.Payment.Tests",
+    "imports": [
+      "flare.Seabook.Core.DatabaseAccess",
+      "flare.Seabook.Services.Payment"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Pps.Test",
+    "imports": ["flare.Seabook.Services.Pps"]
+  },
+  {
+    "name": "flare.Seabook.Services.PpsManualAllocation.Test",
+    "imports": [
+      "flare.Seabook.Core.Services",
+      "flare.Seabook.Core.Utilities",
+      "flare.Seabook.Services.PpsManualAllocation",
+      "flare.Seabook.Services.Pps"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Price.Tests",
+    "imports": [
+      "flare.Seabook.Core.Entities",
+      "flare.Seabook.Core.Utilities",
+      "flare.Seabook.Services.Price",
+      "flare.Seabook.Services.SalesOwner",
+      "flare.Seabook.Services.Vehicle"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Product.Tests",
+    "imports": [
+      "flare.Seabook.Core.DatabaseAccess",
+      "flare.Seabook.Core.Entities",
+      "flare.Seabook.Core.Utilities",
+      "flare.Seabook.Services.Cabin",
+      "flare.Seabook.Services.Departure",
+      "flare.Seabook.Services.Product",
+      "flare.Seabook.Services.SalesOwner",
+      "flare.Seabook.Services.Vehicle"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Reservation.Tests",
+    "imports": [
+      "flare.Seabook.Core.Entities",
+      "flare.Seabook.Services.Reservation"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Route.Tests",
+    "imports": ["flare.Seabook.Core.Services", "flare.Seabook.Services.Route"]
+  },
+  {
+    "name": "flare.Seabook.Services.SalesCif",
+    "imports": ["flare.Seabook.Services.Departure"]
+  },
+  {
+    "name": "flare.Seabook.Services.SalesCif.Tests",
+    "imports": [
+      "flare.Seabook.Core.DatabaseAccess",
+      "flare.Seabook.Core.Tests",
+      "flare.Seabook.Services.Departure",
+      "flare.Seabook.Services.SalesCif"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.SalesOwner.Tests",
+    "imports": [
+      "flare.Seabook.Core.Services",
+      "flare.Seabook.Services.SalesOwner"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.TaskHandler",
+    "imports": ["flare.Seabook.Services.Pps"]
+  },
+  {
+    "name": "flare.Seabook.Services.TaskHandler.Test",
+    "imports": [
+      "flare.Seabook.Services.Pps",
+      "flare.Seabook.Services.TaskHandler"
+    ]
+  },
+  {
+    "name":
+      "flare.Seabook.Services.TPA.ExportReservationArrangementsServiceStub",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.TPA.Tests",
+    "imports": [
+      "flare.Seabook.Core.Constants",
+      "flare.Seabook.Core.DatabaseAccess",
+      "flare.Seabook.Core.Entities",
+      "flare.Seabook.Core.Tests",
+      "flare.Seabook.Services.Price",
+      "flare.Seabook.Services.SalesOwner",
+      "flare.Seabook.Services.TPA"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.TravelAgent",
+    "imports": [
+      "flare.Seabook.Core.DatabaseAccess",
+      "flare.Seabook.Core.Entities",
+      "flare.Seabook.Core.Services"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.TravelAgent.Tests",
+    "imports": [
+      "flare.Seabook.Core.DatabaseAccess",
+      "flare.Seabook.Core.Entities",
+      "flare.Seabook.Core.Services",
+      "flare.Seabook.Services.TravelAgent"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Users.Tests",
+    "imports": [
+      "flare.Seabook.Core.Entities",
+      "flare.Seabook.Core.Tests",
+      "flare.Seabook.Services.Users"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Services.Vehicle.Tests",
+    "imports": ["flare.Seabook.Services.Vehicle"]
+  },
+  {
+    "name": "flare.Seabook.Services.WebCustomer",
+    "imports": ["flare.Seabook.Core.Entities", "flare.Seabook.Core.Services"]
+  },
+  {
+    "name": "flare.Seabook.Services.WebCustomer.Tests",
+    "imports": [
+      "flare.Seabook.Core.DatabaseAccess",
+      "flare.Seabook.Core.Entities",
+      "flare.Seabook.Core.Services",
+      "flare.Seabook.Core.Tests",
+      "flare.Seabook.Services.WebCustomer"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Core.Messages",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Core.Messages.Unobtrusive",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.DataModel.Infrastructure",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.DataModel.Infrastructure.Tests",
+    "imports": ["flare.Seabook.DataModel.Infrastructure"]
+  },
+  {
+    "name": "flare.Seabook.Infrastructure.CoreMessageBusPublisher",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.Shared",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.TestUtilities",
+    "imports": [
+      "flare.Seabook.Services.Infrastructure",
+      "flare.Seabook.Services.Shared"
+    ]
+  },
+  {
+    "name": "flare.Seabook.SsoMessageBusEndpoints",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.SsoMessageBusEndpoints.Tests",
+    "imports": ["flare.Seabook.SsoMessageBusEndpoints"]
+  },
+  {
+    "name": "flare.Seabook.Services.JobStatus",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Services.JobStatus.Tests",
+    "imports": ["flare.Seabook.Services.JobStatus"]
+  },
+  {
+    "name": "flare.Seabook.MessageBus.Utilities",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.MessageBus.Utilities.Test",
+    "imports": ["flare.Seabook.MessageBus.Utilities"]
+  },
+  {
+    "name": "flare.Seabook.MessageBusSubscriber",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.MessageBusSubscriberTests",
+    "imports": ["flare.Seabook.MessageBusSubscriber"]
+  },
+  {
+    "name": "flare.Seabook.SsoMessageBusSubscriber.Tests",
+    "imports": ["flare.Seabook.SsoMessageHandlers"]
+  },
+  {
+    "name": "flare.Seabook.SsoMessageHandlers",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.SsoMessageBusSubscriber.WindowsService",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.TaskFramework.Core",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.TaskFramework.DatabaseAccess",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.TaskFramework.Model",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.TaskFramework.Scheduler",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.TaskFramework.SchedulerService",
+    "imports": ["flare.Seabook.TaskFramework.Scheduler"]
+  },
+  {
+    "name": "flare.Seabook.TaskFramework.Service",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.TaskLibrary.Tests",
+    "imports": ["flare.Seabook.TaskLibrary.Base"]
+  },
+  {
+    "name": "flare.Seabook.TaskLibrary.Base",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.TaskFramework.TestTasks",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.TaskFramework.Tests",
+    "imports": ["flare.Seabook.TaskFramework.Model"]
+  },
+  {
+    "name": "flare.TravelAgentService",
+    "imports": [
+      "flare.TravelAgentService.Common",
+      "flare.TravelAgentService.Domain",
+      "flare.TravelAgentService.Dto",
+      "flare.TravelAgentService.Messages"
+    ]
+  },
+  {
+    "name": "flare.TravelAgentService.Common",
+    "imports": []
+  },
+  {
+    "name": "flare.TravelAgentService.Domain",
+    "imports": [
+      "flare.TravelAgentService.Common",
+      "flare.TravelAgentService.Dto",
+      "flare.TravelAgentService.Messages"
+    ]
+  },
+  {
+    "name": "flare.TravelAgentService.Dto",
+    "imports": ["flare.TravelAgentService.Common"]
+  },
+  {
+    "name": "flare.TravelAgentService.Messages",
+    "imports": ["flare.TravelAgentService.Dto"]
+  },
+  {
+    "name": "flare.TravelAgentService.Domain.Tests",
+    "imports": [
+      "flare.TravelAgentService.Common",
+      "flare.TravelAgentService.Domain",
+      "flare.TravelAgentService.Dto",
+      "flare.TravelAgentService.Messages",
+      "flare.TravelAgentService.TestHelpers"
+    ]
+  },
+  {
+    "name": "flare.TravelAgentService.TestHelpers",
+    "imports": [
+      "flare.TravelAgentService.Common",
+      "flare.TravelAgentService.Dto"
+    ]
+  },
+  {
+    "name": "flare.TravelAgentService.Tests",
+    "imports": [
+      "flare.TravelAgentService.Common",
+      "flare.TravelAgentService.Domain",
+      "flare.TravelAgentService.Dto",
+      "flare.TravelAgentService.Messages",
+      "flare.TravelAgentService.TestHelpers",
+      "flare.TravelAgentService"
+    ]
+  },
+  {
+    "name": "flare.PassPortUtil",
+    "imports": ["flare.Seabook.Utilities.Helpers"]
+  },
+  {
+    "name": "flare.Seabook.Utilities.Helpers",
+    "imports": [
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess"
+    ]
+  },
+  {
+    "name": "flare.PassPortUtil.Tests",
+    "imports": ["flare.PassPortUtil"]
+  },
+  {
+    "name": "flare.Seabook.Utilities.PrintingAdapter",
+    "imports": [
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.Logging"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Utilities.Logging",
+    "imports": [
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Utilities.DatabaseAccess",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Utilities.Mapping",
+    "imports": []
+  },
+  {
+    "name": "flare.Seabook.Utilities.SmtpEmail",
+    "imports": [
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Utilities.Tests",
+    "imports": [
+      "flare.Seabook.Utilities.PrintingAdapter",
+      "flare.Seabook.Utilities.Configuration",
+      "flare.Seabook.Utilities.DatabaseAccess",
+      "flare.Seabook.Utilities.Helpers",
+      "flare.Seabook.Utilities.Logging",
+      "flare.Seabook.Utilities.SmtpEmail"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Utillities.Aspects",
+    "imports": []
+  },
+  {
+    "name": "flare.VismaCustomerIntegrationService",
+    "imports": ["flare.Finance.Dto", "flare.Finance.Messages"]
+  },
+  {
+    "name": "flare.VismaCustomerIntegrationService.Tests",
+    "imports": [
+      "flare.Finance.Dto",
+      "flare.Finance.Messages",
+      "flare.VismaCustomerIntegrationService"
+    ]
+  },
+  {
+    "name": "flare.Seabook.Nuget.Core",
+    "imports": []
+  },
+  {
+    "name": "flare.Alert",
+    "imports": []
+  },
+  {
+    "name": "flare.AppMessages",
+    "imports": []
+  },
+  {
+    "name": "flare.AppNotification",
+    "imports": ["flare.AppMessages", "flare.Taskex", "flare.UnicornStatics"]
+  },
+  {
+    "name": "flare.Taskex",
+    "imports": []
+  },
+  {
+    "name": "flare.UnicornStatics",
+    "imports": ["flare.Dump"]
+  },
+  {
+    "name": "flare.CacheControl",
+    "imports": ["flare.UnicornStatics"]
+  },
+  {
+    "name": "flare.COOldApp",
+    "imports": []
+  },
+  {
+    "name": "flare.CRMInterface",
+    "imports": ["flare.UnicornStatics", "flare.Unicorn"]
+  },
+  {
+    "name": "flare.Unicorn",
+    "imports": [
+      "flare.AppNotification",
+      "flare.CacheControl",
+      "flare.Parser",
+      "flare.IfPresent",
+      "flare.UnicornStatics"
+    ]
+  },
+  {
+    "name": "flare.Dump",
+    "imports": []
+  },
+  {
+    "name": "flare.EventListener",
+    "imports": []
+  },
+  {
+    "name": "flare.Ferrygateway",
+    "imports": [
+      "flare.Alert",
+      "flare.CacheControl",
+      "flare.CRMInterface",
+      "flare.FerryGatewayMessage",
+      "flare.FGedi",
+      "flare.IfPresent",
+      "flare.UnicornStatics",
+      "flare.Unicorn"
+    ]
+  },
+  {
+    "name": "flare.FerryGatewayMessage",
+    "imports": []
+  },
+  {
+    "name": "flare.FGedi",
+    "imports": ["flare.FerryGatewayMessage", "flare.UnicornStatics"]
+  },
+  {
+    "name": "flare.IfPresent",
+    "imports": []
+  },
+  {
+    "name": "flare.FGXMLTest",
+    "imports": ["flare.FerryGatewayMessage", "flare.FGedi"]
+  },
+  {
+    "name": "flare.FGWebService",
+    "imports": []
+  },
+  {
+    "name": "flare.FGWLogreader",
+    "imports": ["flare.FerryGatewayMessage", "flare.FGedi"]
+  },
+  {
+    "name": "flare.FGWTestClient",
+    "imports": ["flare.FerryGatewayMessage", "flare.FGedi"]
+  },
+  {
+    "name": "flare.GatewayService",
+    "imports": [
+      "flare.Alert",
+      "flare.AppNotification",
+      "flare.CacheControl",
+      "flare.COOldApp",
+      "flare.CRMInterface",
+      "flare.Parser",
+      "flare.Ferrygateway",
+      "flare.GlobaseInterface",
+      "flare.IfPresent",
+      "flare.Messagebus",
+      "flare.MessageHandlersForApp",
+      "flare.MessageHandlers",
+      "flare.SeabookB2BReceiver",
+      "flare.SmartPort",
+      "flare.Taskex",
+      "flare.Unicorn-Warmup",
+      "flare.UnicornStatics",
+      "flare.Unicorn"
+    ]
+  },
+  {
+    "name": "flare.Parser",
+    "imports": []
+  },
+  {
+    "name": "flare.GlobaseInterface",
+    "imports": ["flare.CRMInterface", "flare.UnicornStatics", "flare.Unicorn"]
+  },
+  {
+    "name": "flare.Messagebus",
+    "imports": ["flare.UnicornStatics"]
+  },
+  {
+    "name": "flare.MessageHandlersForApp",
+    "imports": ["flare.AppNotification", "flare.UnicornStatics"]
+  },
+  {
+    "name": "flare.MessageHandlers",
+    "imports": [
+      "flare.AppMessages",
+      "flare.AppNotification",
+      "flare.SmartPort",
+      "flare.Taskex",
+      "flare.UnicornStatics",
+      "flare.Unicorn"
+    ]
+  },
+  {
+    "name": "flare.SeabookB2BReceiver",
+    "imports": [
+      "flare.Alert",
+      "flare.Parser",
+      "flare.FerryGatewayMessage",
+      "flare.FGedi",
+      "flare.IfPresent",
+      "flare.UnicornStatics",
+      "flare.Unicorn"
+    ]
+  },
+  {
+    "name": "flare.SmartPort",
+    "imports": ["flare.Taskex", "flare.UnicornStatics"]
+  },
+  {
+    "name": "flare.Unicorn-Warmup",
+    "imports": ["flare.Stresstest", "flare.UnicornStatics"]
+  },
+  {
+    "name": "flare.LogProcessor",
+    "imports": []
+  },
+  {
+    "name": "flare.MeinGott",
+    "imports": []
+  },
+  {
+    "name": "flare.Precompile",
+    "imports": []
+  },
+  {
+    "name": "flare.Showme",
+    "imports": ["flare.UnicornStatics"]
+  },
+  {
+    "name": "flare.SourceGen",
+    "imports": []
+  },
+  {
+    "name": "flare.TempSpotPriceUpdater",
+    "imports": []
+  },
+  {
+    "name": "flare.TestPostViewer",
+    "imports": ["flare.UnicornStatics"]
+  },
+  {
+    "name": "flare.Stresstest",
+    "imports": []
+  },
+  {
+    "name": "flare.Unicorn.UnitTest",
+    "imports": ["flare.Unicorn"]
+  },
+  {
+    "name": "flare.UnicornCmdlet",
+    "imports": ["flare.Messagebus"]
+  },
+  {
+    "name": "flare.ZTests",
+    "imports": [
+      "flare.B2B.Unittest",
+      "flare.Alert",
+      "flare.SeabookB2BReceiver",
+      "flare.Taskex",
+      "flare.UnicornStatics"
+    ]
+  },
+  {
+    "name": "flare.Helpers",
+    "imports": []
+  }
+]
